@@ -37,6 +37,8 @@
 					<education></education>
 					<faith></faith>
 					<nationality></nationality>
+					<readerStatus/>
+					<!-- Prend en compte le degré de professionnalisation du lecteur. 3 choix : pro, non-pro, inconnu) -->
 				</reader>
 				<listener>
 					<persName>
@@ -52,6 +54,7 @@
 					<education></education>
 					<faith></faith>
 					<nationality></nationality>
+					<listenerStatus/>
                 </listener>
 				<place>
 					<placeName/>
