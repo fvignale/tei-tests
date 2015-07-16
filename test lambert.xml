@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Jean Lambert : Journal (septembre 1940-septembre 1942)</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+            <readingExpDesc>
+				<readingExp ref="#eured/test1">
+				<respStmt>
+					<resp>Edited by</resp>
+					<persName>
+						<forename>François</forename>
+						<surname/>
+					</persName>
+               </respStmt>
+               <date when="1941-04-22"></date>
+               <reader>
+					<persName>
+						<forename></forename>
+						<surname></surname>
+					</persName>
+					<sex></sex>
+					<birth></birth>
+					<occupation></occupation>
+                     <!--  A lier avec Hisco et supprimer la balise socecStatus-->
+					<country></country>
+					<!-- A lier avec codes ISO -->
+					<education></education>
+					<faith></faith>
+					<nationality></nationality>
+				</reader>
+				<listener>
+					<persName>
+						<forename></forename>
+						<surname></surname>
+					</persName>
+					<sex></sex>
+					<birth></birth>
+					<occupation></occupation>
+                     <!--  A lier avec Hisco et supprimer la balise socecStatus-->
+					<country></country>
+					<!-- A lier avec codes ISO -->
+					<education></education>
+					<faith></faith>
+					<nationality></nationality>
+                </listener>
+				<place>
+					<placeName/>
+					<location>
+					<geo></geo>
+					<country></country>
+					<settlement type=""></settlement>
+					<district></district>
+					</location>
+				</place>
+				<textread>
+					<author>
+						<persName>
+							<forename/>
+							<surname/>
+						</persName>
+					</author>
+					<title/>
+					<genre/>
+					<!-- Voir http://id.loc.gov/search/?q=memberOf:http://id.loc.gov/authorities/genreForms/collection_LCGFT_General -->
+					<provenance/>
+					<origLanguage></origLanguage>
+					<!-- @type ISO 639/2 -->
+					<readingLanguage></readingLanguage>
+					<!-- @type ISO 639/2  -->
+					<objectType ref="#"/>
+					<!-- Décrit la forme du document lu. Thésaurus à reprendre -->
+				</textread>
+				<experienceType ref="#"/>
+				<!-- 9 combinaisons possibles  (@ref ou @type) -->
+				<notes>
+					<note/>
+				</notes>
+				</readingExp>
+            </readingExpDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>22 avril. Jours d'été. Je ne tarderai guère à prendre mon premier bain, tire déjà des
+            plans pour aller chaque midi aux Catalans. </p>
+			<p>J'achevais de lire <title>Orlando</title>, voilà deux semaines, quand j'ai appris la mort de <author>Virginia Woolf</author>. <readingExp ref="#eured/test1">Je lis maintenant <title>Années</title>, qui me
+		    rappelle, en plus léger, Les <title>Buddenbrooks</title>, et où certaines descriptions de la campagne
+            m'<emotion type=#OCC/happy-for">émeuvent comme celles d'<title>Anna Karénine</title></emotion></readingExp>; mais <readingExp ref="#eured/test2">c'est aux <title>Vagues</title> que je continue à penser
+            avec un <emotion type="#OCC/joy"/>attachement à demi nostalgique</emotion> (je les lisais à Berlin, au printemps)..</readingExp></p>
+		</body>
+	</text>
+</TEI>
